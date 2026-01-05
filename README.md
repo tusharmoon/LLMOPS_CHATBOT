@@ -64,17 +64,13 @@ The application features a chat-style Streamlit frontend, offering a seamless us
 
 Folder Structure:
 
-LLMOPS_RESUME_CHATBOT/
-│
-├── app.py                   Streamlit frontend
-├── src/
-│   ├── load_doc.py
-│   ├── vector_store.py
-│   ├── prompts.py
-│   ├── load_llm.py
-│
-├── data/
-│   └── resumes/
-│
-├── .env
-└── requirements.txt
+        ├── app.py              # Streamlit UI
+        ├── src/                # Backend logic
+        │   ├── load_doc.py
+        │   ├── vector_store.py
+        │   ├── prompts.py
+        │   └── load_llm.py
+        ├── data/resumes/       # Resume files
+        ├── requirements.txt
+        └── README.md
+
